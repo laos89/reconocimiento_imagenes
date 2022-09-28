@@ -29,7 +29,7 @@ List<Flowers> flores = [];
 
 Future<Map<String, dynamic>> fetchData() async {
   final response = await http.get(
-      Uri.parse("https://raw.githubusercontent.com/Azazel17/pokehub/master/flores.json"));
+      Uri.parse("https://raw.githubusercontent.com/laos89/reconocimiento_imagenes/main/flowers.json"));
   print(response.statusCode);
   if (response.statusCode == 200) {
     myMap = json.decode(response.body);
