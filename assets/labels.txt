@@ -1,5 +1,10 @@
-0 Margaritas
-1 Dientes de Leon
-2 Rosas
-3 Girasoles
-4 Tulipanes
+0 tabcin
+1 agrifen
+2 afrin
+3 aspirina
+4 desenfriol
+5 saldeuvaspicot
+6 alkaseltzer
+7 peptobismol
+8 genoprazol
+9 advil

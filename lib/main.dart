@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Teachable Machine"),
+        title: const Text("reconocimiento de medicamentos"),
         centerTitle: true,
       ),
       body: isLoading
