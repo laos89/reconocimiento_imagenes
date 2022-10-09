@@ -1,15 +1,15 @@
 {
-"Flowers":[
-  {"id":"0","name":"tabcin", "description":"tabcin"},
-  {"id":"1","name":"agrifen", "description":"agrifen"},
-  {"id":"2","name":"afrin", "description":"afrin"},
-  {"id":"3","name":"aspirina", "description":"aspirina"},  
-  {"id":"4","name":"desenfriol", "description":"desenfriol"},
-  {"id":"5","name":"saldeuvaspicot", "description":"saldeuvaspicot"},
-  {"id":"6","name":"alkaseltzer", "description":"alkaseltzer"},
-  {"id":"7","name":"peptobismol", "description":"peptobismol"},
-  {"id":"8","name":"genoprazonl", "description":"genoprazol"},
-  {"id":"9","name":"advil", "description":"advil"}
+"Medicina":[
+  {"id":"0","name":"tabcin", "description":"efervecente, para la gripa"},
+  {"id":"1","name":"agrifen", "description":"tableta, para la gripa"},
+  {"id":"2","name":"afrin", "description":"spray, para la congestion"},
+  {"id":"3","name":"aspirina", "description":"tableta, para dolor de cabeza"},  
+  {"id":"4","name":"desenfriol", "description":"tableta, para el resfriado"},
+  {"id":"5","name":"saldeuvaspicot", "description":"efervecente, para malestar del estomago"},
+  {"id":"6","name":"alkaseltzer", "description":"efervecente, para el malestar del estomago"},
+  {"id":"7","name":"peptobismol", "description":"jarabe, para la diarrea"},
+  {"id":"8","name":"genoprazonl", "description":"tableta, para tratar la gastritis"},
+  {"id":"9","name":"advil", "description":"tableta, para molestias de la gripe"}
   
   ]
 }
