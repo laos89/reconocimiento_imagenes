@@ -25,33 +25,33 @@ class MyApp extends StatelessWidget {
 
 //JSON
 Map myMap = Map();
-List<Flowers> flores = [];
+List<Medicina> medicina = [];
 
 Future<Map<String, dynamic>> fetchData() async {
   final response = await http.get(
-      Uri.parse("https://raw.githubusercontent.com/laos89/reconocimiento_imagenes/main/flowers.json"));
+      Uri.parse("https://raw.githubusercontent.com/laos89/reconocimiento_imagenes/main/medicamentos.json"));
   print(response.statusCode);
   if (response.statusCode == 200) {
     myMap = json.decode(response.body);
     print("si descarga el json");
     print(response.body);
-    Iterable i = myMap["Flowers"];
-    flores = i.map((m) => Flowers.fromJson(m)).toList();
+    Iterable i = myMap["Medicina"];
+    medicina = i.map((m) => Medicina.fromJson(m)).toList();
   } else {
     throw Exception("no se puede descargar");
   }
   throw '';
 }
 
-//clase flower
-class Flowers {
+//clase Medicina
+class Medicina {
   String? id;
   String? name;
   String? description;
 
-  Flowers(this.id, this.name, this.description);
+  Medicina(this.id, this.name, this.description);
 
-  Flowers.fromJson(Map<String, dynamic> json) {
+  Medicina.fromJson(Map<String, dynamic> json) {
     id = json["id"];
     name = json["name"];
     description = json["description"];
@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   _outputs != null
                       ? Text(
-                          "${flores[_outputs![0]["index"]].name}",
+                          "${medicina[_outputs![0]["index"]].name}",
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 30.0,
